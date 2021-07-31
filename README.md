@@ -1,3 +1,3 @@
 # Kokoa Clone 2021 Update
 
-CSS got so much better!
+HTML & CSS를 이용한 카카오톡 클론 코딩
