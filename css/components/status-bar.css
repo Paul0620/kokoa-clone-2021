@@ -1,0 +1,42 @@
+/* 
+BEM 방식으로 작성하자
+Block, Element, Modifier
+Block - 재사용이 가능한 기능적으로 독립적인 페이지 컴포넌트
+Element - Block을 구성하는 단위, 자신이 속한 블럭 내에서만 의미를 가짐
+          ex) Block명__Element명
+Modifier - Block이나 Element의 속성을 담당, 다르게 동작하는 Block이나 Element를 만들 때 사용
+            ex) Block--Modifier or Block__Element--Modifier
+키-밸류 타입도 있음 - ex) key-value, color-gray, theme-normal
+ */
+
+.status-bar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-battery-quarter {
+  margin: 0px 5px;
+}

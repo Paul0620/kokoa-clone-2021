@@ -1,0 +1,23 @@
+.nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* 
+	패딩값은 넣되 박스사이즈 변화를 안주고 싶을때
+	박스 크기를 보더 박스값으로 맞춰줌 화면 너머로 안넘어가게 
+	박스사이즈를 안늘리게 설정 
+	*/
+	box-sizing: border-box;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+	color: #2e363e;
+}
