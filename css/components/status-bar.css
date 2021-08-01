@@ -11,6 +11,7 @@ Modifier - Block이나 Element의 속성을 담당, 다르게 동작하는 Block
 
 .status-bar {
   position: fixed;
+  top: 0;
   width: 100%;
   box-sizing: border-box;
   display: flex;
