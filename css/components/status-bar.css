@@ -17,7 +17,6 @@ Modifier - Block이나 Element의 속성을 담당, 다르게 동작하는 Block
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  background-color: white;
   z-index: 1;
 }
 
