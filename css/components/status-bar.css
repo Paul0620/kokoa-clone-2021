@@ -10,14 +10,9 @@ Modifier - Block이나 Element의 속성을 담당, 다르게 동작하는 Block
  */
 
 .status-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  z-index: 1;
 }
 
 .status-bar__column {
